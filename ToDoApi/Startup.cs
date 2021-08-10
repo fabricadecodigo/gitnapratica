@@ -1,13 +1,13 @@
-using ToDoApi.src.Api;
-using ToDoApi.src.BusinessRules.Handlers;
-using ToDoApi.src.BusinessRules.Validators;
-using ToDoApi.src.Database;
-using ToDoApi.src.Database.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ToDoApi.src.Api;
+using ToDoApi.src.BusinessRules.Handlers;
+using ToDoApi.src.BusinessRules.Validators;
+using ToDoApi.src.Database;
+using ToDoApi.src.Database.Repositories;
 
 namespace ToDoApi
 {
